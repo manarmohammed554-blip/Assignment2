@@ -4,7 +4,9 @@ INSTRUCTOR [Saulo Q. Dos Santos]
 ASSIGNMENT: A2 Question 2
 AUTHOR [Manar]
 VERSION [2026-Feb-26]
-PURPOSE: .
+PURPOSE: To read parkade occupancy data from a file,
+         and calculate the occupancy rate for each floor, 
+         and determine the parking rate based on the occupancy levels.
 """
 
 """

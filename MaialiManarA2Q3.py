@@ -4,7 +4,8 @@ INSTRUCTOR [Saulo Q. Dos Santos]
 ASSIGNMENT: A2 Question 3
 AUTHOR [Manar]
 VERSION [2026-Feb-26]
-PURPOSE: .
+PURPOSE: To read bitcoin price data from a file,
+         and calculate the statistics.
 """
 
 import math
@@ -204,7 +205,7 @@ def printPriceChange(Data: list) -> None:
     print("Price Movement Analysis:")
     increaseTuple = getPriceIncreaseStats(Data)
     decreaseTuple = getPriceDecreaseStats(Data)
-    print("Days with a prince increase: {}".format(increaseTuple[2]))
+    print("Days with a price increase: {}".format(increaseTuple[2]))
     print("Days with a price decrease: {}".format(decreaseTuple[2]))
     print(
         "Largest single-day increase: ${:,.2f} on {}".format(

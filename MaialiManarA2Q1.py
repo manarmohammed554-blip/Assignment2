@@ -4,7 +4,7 @@ INSTRUCTOR [Saulo Q. Dos Santos]
 ASSIGNMENT: A2 Question 1
 AUTHOR [Manar]
 VERSION [2026-Feb-26]
-PURPOSE: .
+PURPOSE: To count how many times specified words from one file appear in another file.
 """
 
 def InitalizeDict(wordFile: list[str]) -> dict:
