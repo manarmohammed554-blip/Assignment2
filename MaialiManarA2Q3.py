@@ -63,7 +63,6 @@ def calcMean(Data: list[tuple]) -> float:
     Returns:
         The mean of the prices in the list.
     """
-    print(Data)
     sum = calcSum(Data)
     mean = sum / len(Data)
     return mean

@@ -4,7 +4,7 @@ INSTRUCTOR [Saulo Q. Dos Santos]
 ASSIGNMENT: A2 Question 1
 AUTHOR [Manar]
 VERSION [2026-Feb-26]
-PURPOSE: Read and count the words in a story file, display the count and statistics of the file.
+PURPOSE: .
 """
 
 def InitalizeDict(wordFile: list[str]) -> dict:
